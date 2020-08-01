@@ -6,6 +6,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-export ALLOW_MISSING_DEPENDENCIES
+export ALLOW_MISSING_DEPENDENCIES=TRUE
 lunch omni_REL-eng
 make recoveryimage
