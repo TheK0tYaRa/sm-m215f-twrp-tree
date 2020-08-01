@@ -1,4 +1,4 @@
-## Recovery Device Tree for the Samsung Galaxy M30s
+## Recovery Device Tree for the Samsung Galaxy M30s mangled to theoretically work on M21
 
 ## How-to compile it:
 
@@ -6,6 +6,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-export ALLOW_MISSING_DEPENDENCIES
+export ALLOW_MISSING_DEPENDENCIES=TRUE
 lunch omni_REL-eng
 make recoveryimage
