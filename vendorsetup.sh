@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_REL-eng
+COMMON_LUNCH_CHOICES=omni_REL-eng
 
