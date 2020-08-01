@@ -1,4 +1,4 @@
-## Recovery Device Tree for the Samsung Galaxy M30s
+## Recovery Device Tree for the Samsung Galaxy M30s mangled to theoretically work on M21
 
 ## How-to compile it:
 
