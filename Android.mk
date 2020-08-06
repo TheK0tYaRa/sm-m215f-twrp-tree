@@ -16,10 +16,8 @@
 # limitations under the License.
 #
 
-ifneq ($(filter REL,$(TARGET_DEVICE)),)
-
 LOCAL_PATH := $(call my-dir)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
+ifeq ($(TARGET_DEVICE),REL)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

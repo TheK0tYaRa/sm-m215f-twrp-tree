@@ -16,6 +16,5 @@
 # limitations under the License.
 #
 
-#COMMON_LUNCH_CHOICES := omni_REL-userdebug
-#COMMON_LUNCH_CHOICES := omni_REL-eng
-PRODUCT_MAKEFILES := \ $(LOCAL_DIR)/omni_REL.mk
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/omni_REL.mk
