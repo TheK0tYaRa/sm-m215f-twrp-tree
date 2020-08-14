@@ -9,3 +9,6 @@ To build:
 export ALLOW_MISSING_DEPENDENCIES=TRUE
 lunch omni_REL-eng
 make recoveryimage
+```
+
+While the TWRP tree for this device exists, the TWRP recovery doesn't yet support ROMs with `super.img`, so it won't boot even after being signed.
